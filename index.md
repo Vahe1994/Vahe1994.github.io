@@ -1,29 +1,26 @@
-## Portfolio
-
----
-<a href="https://www.linkedin.com/mwlite/in/vage-egiazarian-47b18a138/">
-    <img src="images/linkedin.svg" alt="linkedin link" width="40"/ >
-  </a>
 
 ### Papers
 
 [Beyond Vector Spaces: Compact Data Representation as Differentiable Weighted Graphs](https://papers.nips.cc/paper/8914-beyond-vector-spaces-compact-data-representation-as-differentiable-weighted-graphs)  
 Denis Mazur*, Vage Egiazarian*, Stanislav Morozov*, Artem Babenko  
-<img src="images/graph_emb_classification.png?raw=true"/>  
+<img src="images/graph_emb_classification.png?raw=true"/>
 
 ---
 
 [Perceptual deep depth super-resolution](http://adase.group/3ddl/projects/perceptual-depth-sr/)  
 Voinov, O., Artemov, A., Egiazarian, V., Notchenko, A., Bobrovskikh, G., Zorin, D., & Burnaev, E.  
+<img src="images/ddsr.jpg?raw=true"/>
 
 ---
 [Pyramids for Adversarial Representation Learning with 3D Point Clouds](http://adase.group/3ddl/projects/3d-laplatgan/)  
-Egiazarian, V. * , Ignatyev, S.* , Artemov, A., Voynov, O., Kravchenko, A., Zheng, Y., Velho,L., Burnaev,E.  
+Egiazarian, V. * , Ignatyev, S.* , Artemov, A., Voynov, O., Kravchenko, A., Zheng, Y., Velho,L., Burnaev,E.
+<img src="images/latent_space.jpg?raw=true"/>
 
 ---
 
 [Deep Vectorization of Technical Drawings](http://adase.group/3ddl/projects/vectorization/)  
 Egiazarian,V.* , Voynov, O.* , Artemov, A., Volkhonskiy, D., Safin, A., Taktasheva, M., Zorin, D., & Burnaev, E.,
+![alt text](https://drive.google.com/uc?export=view&id=191r0QAaNhOUIaHPOlPWH5H4Jg7qxCMRA)
 
 ---
 
