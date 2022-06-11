@@ -5,11 +5,8 @@
 ### Papers
 
 [Beyond Vector Spaces: Compact Data Representation as Differentiable Weighted Graphs](https://papers.nips.cc/paper/8914-beyond-vector-spaces-compact-data-representation-as-differentiable-weighted-graphs)
-<object data="images/graph_emb_classification.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="images/graph_emb_classification.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="images/graph_emb_classification.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+Denis Mazur, Vage Egiazarian, Stanislav Morozov, Artem Babenko
+<img src="images/graph_emb_classification.png?raw=true"/>
 
 ---
 [Perceptual deep depth super-resolution](/pdf/sample_presentation.pdf)
