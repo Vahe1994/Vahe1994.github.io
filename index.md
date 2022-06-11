@@ -20,7 +20,6 @@ Egiazarian, V. * , Ignatyev, S.* , Artemov, A., Voynov, O., Kravchenko, A., Zhen
 
 [Deep Vectorization of Technical Drawings](http://adase.group/3ddl/projects/vectorization/)  
 Egiazarian,V.* , Voynov, O.* , Artemov, A., Volkhonskiy, D., Safin, A., Taktasheva, M., Zorin, D., & Burnaev, E.,
-![alt text](https://drive.google.com/uc?export=view&id=191r0QAaNhOUIaHPOlPWH5H4Jg7qxCMRA)
 
 ---
 
