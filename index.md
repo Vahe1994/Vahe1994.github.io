@@ -1,34 +1,41 @@
 ## Portfolio
 
 ---
-  <a href="https://www.linkedin.com/mwlite/in/vage-egiazarian-47b18a138/">
-         <img alt="linkedin" src="https://www.qries.com/images/banner_logo.png"
-         width=30" height="40">
-      </a>
+![linkedin](image/linkedin.jpg)](https://www.linkedin.com/mwlite/in/vage-egiazarian-47b18a138/)
+
 ### Papers
 
 [Beyond Vector Spaces: Compact Data Representation as Differentiable Weighted Graphs](https://papers.nips.cc/paper/8914-beyond-vector-spaces-compact-data-representation-as-differentiable-weighted-graphs)
-Denis Mazur, Vage Egiazarian, Stanislav Morozov, Artem Babenko
-<img src="images/graph_emb_classification.png?raw=true"/>
+Denis Mazur, Vage Egiazarian, Stanislav Morozov, Artem Babenko  
+<img src="images/graph_emb_classification.png?raw=true"/>  
 
 ---
-[Perceptual deep depth super-resolution](http://adase.group/3ddl/projects/perceptual-depth-sr/)
-Voinov, O., Artemov, A., Egiazarian, V., Notchenko, A., Bobrovskikh, G., Zorin, D., & Burnaev, E.
+
+[Perceptual deep depth super-resolution](http://adase.group/3ddl/projects/perceptual-depth-sr/)  
+Voinov, O., Artemov, A., Egiazarian, V., Notchenko, A., Bobrovskikh, G., Zorin, D., & Burnaev, E.  
 
 ---
-[Pyramids for Adversarial Representation Learning with 3D Point Clouds](http://adase.group/3ddl/projects/3d-laplatgan/)
-Egiazarian, V.*, Ignatyev, S.*, Artemov, A., Voynov, O., Kravchenko, A., Zheng, Y., Velho,L., Burnaev,E.
+[Pyramids for Adversarial Representation Learning with 3D Point Clouds](http://adase.group/3ddl/projects/3d-laplatgan/)  
+Egiazarian, V.*, Ignatyev, S.*, Artemov, A., Voynov, O., Kravchenko, A., Zheng, Y., Velho,L., Burnaev,E.  
+
 ---
-[Deep Vectorization of Technical Drawings](http://adase.group/3ddl/projects/vectorization/)
+
+[Deep Vectorization of Technical Drawings](http://adase.group/3ddl/projects/vectorization/)  
 Egiazarian,V.*, Voynov, O.*, Artemov, A., Volkhonskiy, D., Safin, A., Taktasheva, M., Zorin, D., & Burnaev, E.,
+
 ---
-[Wasserstein-2 Generative Networks](http://adase.group/projects/w2gn/)
- Korotin, A., Egiazarian, V., Asadulaev, A., Burnaev E.,
+
+[Wasserstein-2 Generative Networks](http://adase.group/projects/w2gn/)    
+ Korotin, A., Egiazarian, V., Asadulaev, A., Burnaev E.,  
+
 ---
-[Wasserstein Iterative Networks for Barycenter Estimation](https://arxiv.org/abs/2201.12245)
+
+[Wasserstein Iterative Networks for Barycenter Estimation](https://arxiv.org/abs/2201.12245)  
 Korotin, A., Egiazarian, V., Li, L., Burnaev E.,
----
-[DEF: Deep Estimation of Sharp Geometric Features in 3D Shapes](https://arxiv.org/abs/2011.15081)
+
+---  
+
+[DEF: Deep Estimation of Sharp Geometric Features in 3D Shapes](https://arxiv.org/abs/2011.15081)  
 Matveev,A., Rakhimov, R., Artemov, A., Bobrovskikh,G., Egiazarian,V., Bogomolov,E., Panozzo,D., Zorin,D., Burnaev,E., 
 
 ### PROJECTS
