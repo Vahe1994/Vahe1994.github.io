@@ -1,12 +1,10 @@
 title: Vage Egiazarian # your name (or website title) here
 logo: "/images/logo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-#  I'm 4-rd year PhD student in  Deep Learning specializing in Computer Vision and Computer Graphics.
-#  Currently I'm working on improving vectorization for 3d and 2d data using deep learning and algorithms.
-#  <br><br>
+  I'm 4-rd year PhD student in  Deep Learning specializing in Computer Vision and Computer Graphics.
+  Currently I'm working on improving vectorization for 3d and 2d data using deep learning and algorithms.
+  <br><br>
 #  [Email](mailto:vahe527887@yandex.ru) <a href="https://www.linkedin.com/mwlite/in/vage-egiazarian-47b18a138">Linkedin</a>
-#  ![linkedin](image/linkedin.jpg)]
-  [![linkedin](images/linkedin.jpg)](https://www.linkedin.com/mwlite/in/vage-egiazarian-47b18a138)
 
 theme: jekyll-theme-minimal
 google_analytics: # your Google Analytics tracking ID here

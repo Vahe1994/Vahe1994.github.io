@@ -1,7 +1,10 @@
 ## Portfolio
 
 ---
-[![linkedin](images/linkedin.jpg)](https://www.linkedin.com/mwlite/in/vage-egiazarian-47b18a138)
+<a href="https://www.linkedin.com/mwlite/in/vage-egiazarian-47b18a138/">
+    <img src="images/linkedin.svg" alt="linkedin link" width="40"/ >
+  </a>
+
 ### Papers
 
 [Beyond Vector Spaces: Compact Data Representation as Differentiable Weighted Graphs](https://papers.nips.cc/paper/8914-beyond-vector-spaces-compact-data-representation-as-differentiable-weighted-graphs)  
