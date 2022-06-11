@@ -2,17 +2,17 @@
 
 ---
 
-### Category Name 1 
+### Papers
 
-[Project 1 Title](/sample_page)
+[Beyond Vector Spaces: Compact Data Representation as Differentiable Weighted Graphs](https://papers.nips.cc/paper/8914-beyond-vector-spaces-compact-data-representation-as-differentiable-weighted-graphs)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Perceptual deep depth super-resolution](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Pyramids for Adversarial Representation Learning with 3D Point Clouds](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
@@ -26,7 +26,7 @@
 - [Project 5 Title](http://example.com/)
 
 ---
-
+### Awards
 
 
 
