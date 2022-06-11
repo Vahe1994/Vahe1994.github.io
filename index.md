@@ -9,18 +9,24 @@ Denis Mazur, Vage Egiazarian, Stanislav Morozov, Artem Babenko
 <img src="images/graph_emb_classification.png?raw=true"/>
 
 ---
-[Perceptual deep depth super-resolution](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-
----
-[Pyramids for Adversarial Representation Learning with 3D Point Clouds](http://example.com/)
- <button type="button">Click Me!</button> 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-
+[Perceptual deep depth super-resolution](http://adase.group/3ddl/projects/perceptual-depth-sr/)
+Voinov, O., Artemov, A., Egiazarian, V., Notchenko, A., Bobrovskikh, G., Zorin, D., & Burnaev, E.
 
 ---
+[Pyramids for Adversarial Representation Learning with 3D Point Clouds](http://adase.group/3ddl/projects/3d-laplatgan/)
+Egiazarian, V.*, Ignatyev, S.*, Artemov, A., Voynov, O., Kravchenko, A., Zheng, Y., Velho,L., Burnaev,E.
+---
+[Deep Vectorization of Technical Drawings](http://adase.group/3ddl/projects/vectorization/)
+Egiazarian,V.*, Voynov, O.*, Artemov, A., Volkhonskiy, D., Safin, A., Taktasheva, M., Zorin, D., & Burnaev, E.,
+---
+[Wasserstein-2 Generative Networks](http://adase.group/projects/w2gn/)
+ Korotin, A., Egiazarian, V., Asadulaev, A., Burnaev E.,
+---
+[Wasserstein Iterative Networks for Barycenter Estimation](https://arxiv.org/abs/2201.12245)
+Korotin, A., Egiazarian, V., Li, L., Burnaev E.,
+---
+[DEF: Deep Estimation of Sharp Geometric Features in 3D Shapes](https://arxiv.org/abs/2011.15081)
+Matveev,A., Rakhimov, R., Artemov, A., Bobrovskikh,G., Egiazarian,V., Bogomolov,E., Panozzo,D., Zorin,D., Burnaev,E., 
 
 ### PROJECTS
 #### Telegram bot for Celebrity Faces   
@@ -31,8 +37,6 @@ Analysis and classification of Twitter accounts into 3 groups – “person”, 
 As part of a team completed the project “Conceptual structuring of the situation of building basic models of political and socio-economic situation of the Republic of Kazakhstan”. The work was done in the interest of the presidential administration of the Republic of Kazakhstan. February 2015 - April 2015
 #### Mathematical modeling and investment planning for oil production
  In this paper, I developed a model for constructing an optimal investment portfolio for an oil company from a pool of projects. The objective was to maximize the NPV for 20 years. As a solution, a C# application was created using genetic algorithms with modifications to fit the needs of a particular problem.
-
-
 
 ---
 ### Awards
