@@ -12,7 +12,7 @@ In this paper, we aim to eliminate the inductive bias imposed by the embedding s
 ---
 
 [Perceptual deep depth super-resolution](http://adase.group/3ddl/projects/perceptual-depth-sr/)  
-Voinov, O., Artemov, A., Egiazarian, V., Notchenko, A., Bobrovskikh, G., Zorin, D., & Burnaev, E.  
+Voinov, O., Artemov, A., Egiazarian, V., Notchenko, A., Bobrovskikh, G., Zorin, D., & Burnaev, E.    
 [ICCV 2019] 
 
 <img src="images/ddsr.jpg?raw=true"/>
@@ -22,7 +22,7 @@ We address the problem of depth map super-resolution with the focus on visual qu
 ---
 
 [Pyramids for Adversarial Representation Learning with 3D Point Clouds](http://adase.group/3ddl/projects/3d-laplatgan/)  
-Egiazarian, V. * , Ignatyev, S.* , Artemov, A., Voynov, O., Kravchenko, A., Zheng, Y., Velho,L., Burnaev,E.
+Egiazarian, V. * , Ignatyev, S.* , Artemov, A., Voynov, O., Kravchenko, A., Zheng, Y., Velho,L., Burnaev,E.  
 [VISAPP 2020] 
 
 <img src="images/latent_space.jpg?raw=true"/>
@@ -32,7 +32,7 @@ We employ a latent-space Laplacian pyramid representation within a hierarchical 
 ---
 
 [Deep Vectorization of Technical Drawings](http://adase.group/3ddl/projects/vectorization/)  
-Egiazarian,V.* , Voynov, O.* , Artemov, A., Volkhonskiy, D., Safin, A., Taktasheva, M., Zorin, D., & Burnaev, E.,
+Egiazarian,V.* , Voynov, O.* , Artemov, A., Volkhonskiy, D., Safin, A., Taktasheva, M., Zorin, D., & Burnaev, E.  
 [ECCV 2020] 
 
 <img src="images/deep_vect.png?raw=true"/>
@@ -42,7 +42,7 @@ We present a new method for vectorization of technical line drawings which consi
 ---
 
 [Wasserstein-2 Generative Networks](http://adase.group/projects/w2gn/)    
-Korotin, A., Egiazarian, V., Asadulaev, A., Burnaev E., 
+Korotin, A., Egiazarian, V., Asadulaev, A., Burnaev E.    
 [ICLR 2021] 
 
 <img src="images/w2gn_header.jpg?raw=true"/>
@@ -52,7 +52,7 @@ In this paper, we propose a novel end-to-end algorithm for training generative m
 ---
 
 [DEF: Deep Estimation of Sharp Geometric Features in 3D Shapes](https://arxiv.org/abs/2011.15081)  
-Matveev,A., Rakhimov, R., Artemov, A., Bobrovskikh,G., Egiazarian,V., Bogomolov,E., Panozzo,D., Zorin,D., Burnaev,E., 
+Matveev,A., Rakhimov, R., Artemov, A., Bobrovskikh,G., Egiazarian,V., Bogomolov,E., Panozzo,D., Zorin,D., Burnaev,E.   
 [SiGGRAPH 2022] 
 
 <img src="images/def.png?raw=true"/>
@@ -62,7 +62,7 @@ We propose Deep Estimators of Features (DEFs), a learning-based framework for pr
 ---
 
 [Wasserstein Iterative Networks for Barycenter Estimation](https://arxiv.org/abs/2201.12245)  
-Korotin, A., Egiazarian, V., Li, L., Burnaev E.,
+Korotin, A., Egiazarian, V., Li, L., Burnaev E.  
 [Pre-print 2022] 
 
 <img src="images/w2bar.png?raw=true"/>
@@ -72,7 +72,7 @@ In this paper, we present an algorithm to approximate the Wasserstein-2 barycent
 ---
 
 [Neural Optimal Transport with General Cost Functionals](https://arxiv.org/pdf/2205.15403.pdf)  
-Arip Asadulaev*, Alexander Korotin*, Vage Egiazarian, Evgeny Burnaev
+Arip Asadulaev*, Alexander Korotin*, Vage Egiazarian, Evgeny Burnaev  
 [Pre-print 2022] 
 
 We present a novel neural-networks-based algorithm to compute optimal transport (OT) plans and maps for general cost functionals. The algorithm is based on a saddle point reformulation of the OT problem and generalizes prior OT methods for weak and strong cost functionals. As an application, we construct a functional to map data distributions with preserving the class-wise structure of data.
