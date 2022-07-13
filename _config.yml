@@ -1,16 +1,6 @@
 title: Vage Egiazarian # your name (or website title) here
 logo: "/images/logo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  I’m a PhD student in the Computational and Data Science Engineering department of Skoltech University.
-  My PhD is  under supervision from both Prof. Evgeny Burnaev from Skoltech and Prof. Denis Zorin from NYU.
-  I’m doing research on a mixture of computer vision, deep learning and computer graphics.
-  Previous to my PhD, from 2016 to 2018, I got my master degree in Computer Science at HSE University and got a degree 
-  in Computer Science/Big Data at the Yandex School of Data Analysis.  
-  During  that time, I worked as a Data Analyst at Center of Stock Technologies, where I was responsible for the trend 
-  and market analysis, and  trading algorithm construction for predicting the movement of high-frequency trading 
-  quotations using machine learning. 
-  My research interests are shape reconstruction, geometry processing and generative networks. Main direction  of my research is dedicated to the vector graphics reconstruction from 2d (raster images) or 3d (points clouds) data. I work on improving the geometry processing pipeline with deep learning accelerated algorithms. Other than shape reconstruction, I'm also doing research in the generative neural networks field. There, we are trying  to improve generation of objects via Optimal Transport and Wasserstein 2 loss. During my PhD I published several papers at top Machine Learning conferences -  NeurIPS, ICLR, SiGGRAPH, ICCV, ECCV e.t.c.   
-            In 2020, I was honoured to receive the Ilya Segalovich Award for Young Researchers. 
   <br><br>
 
 theme: jekyll-theme-minimal
