@@ -98,5 +98,5 @@ As part of a team completed the project “Conceptual structuring of the situati
 Laureate of  Yandex The Ilya Segalovich Award  2020 for Researchers
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a>.>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
 <!-- Remove above link if you don't want to attibute -->
