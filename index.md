@@ -1,4 +1,25 @@
 ### Papers
+[Extreme Compression of Large Language Models via Additive Quantization ](https://arxiv.org/abs/2401.06118)  
+Vage Egiazarian*, Andrei Panferov*, Denis Kuznedelev, Elias Frantar, Artem Babenko, Dan Alistarh
+[Pre-print]  
+<img src="images/AQLM.pdf?raw=true"/>  
+The emergence of accurate open large language models (LLMs) has led to a race towards quantization techniques for such models enabling execution on end-user devices. In this paper, we revisit the problem of "extreme" LLM compression--defined as targeting extremely low bit counts, such as 2 to 3 bits per parameter, from the point of view of classic methods in Multi-Codebook Quantization (MCQ). Our work builds on top of Additive Quantization, a classic algorithm from the MCQ family, and adapts it to the quantization of language models. The resulting algorithm advances the state-of-the-art in LLM compression, outperforming all recently-proposed techniques in terms of accuracy at a given compression budget. For instance, when compressing Llama 2 models to 2 bits per parameter, our algorithm quantizes the 7B model to 6.93 perplexity (a 1.29 improvement relative to the best prior work, and 1.81 points from FP16), the 13B model to 5.70 perplexity (a .36 improvement) and the 70B model to 3.94 perplexity (a .22 improvement) on WikiText2. We release our implementation of Additive Quantization for Language Models AQLM as a baseline to facilitate future research in LLM quantization. 
+---
+
+[SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression](https://arxiv.org/abs/2306.03078)  
+Tim Dettmers*, Ruslan Svirschevski*, Vage Egiazarian*, Denis Kuznedelev*, Elias Frantar, Saleh Ashkboos, Alexander Borzunov, Torsten Hoefler, Dan Alistarh  
+[ICLR 2024]  
+<img src="images/spqr.pdf?raw=true"/>  
+Recent advances in large language model (LLM) pretraining have led to high-quality LLMs with impressive abilities. By compressing such LLMs via quantization to 3-4 bits per parameter, they can fit into memory-limited devices such as laptops and mobile phones, enabling personalized use. However, quantization down to 3-4 bits per parameter usually leads to moderate-to-high accuracy losses, especially for smaller models in the 1-10B parameter range, which are well-suited for edge deployments. To address this accuracy issue, we introduce the Sparse-Quantized Representation (SpQR), a new compressed format and quantization technique which enables for the first time near-lossless compression of LLMs across model scales, while reaching similar compression levels to previous methods. SpQR works by identifying and isolating outlier weights, which cause particularly-large quantization errors, and storing them in higher precision, while compressing all other weights to 3-4 bits, and achieves relative accuracy losses of less than 1% in perplexity for highly-accurate LLaMA and Falcon LLMs. This makes it possible to run 33B parameter LLM on a single 24 GB consumer GPU without any performance degradation at 15% speedup thus making powerful LLMs available to consumer without any downsides. SpQR comes with efficient algorithms for both encoding weights into its format, as well as decoding them efficiently at runtime. Specifically, we provide an efficient GPU inference algorithm for SpQR which yields faster inference than 16-bit baselines at similar accuracy, while enabling memory compression gains of more than 4x. 
+---
+
+[Neural Optimal Transport with General Cost Functionals](https://arxiv.org/pdf/2205.15403.pdf)  
+Arip Asadulaev*, Alexander Korotin*, Vage Egiazarian, Evgeny Burnaev  
+[ICLR 2024]  
+<img src="images/NOT.png?raw=true"/>  
+We present a novel neural-networks-based algorithm to compute optimal transport (OT) plans and maps for general cost functionals. The algorithm is based on a saddle point reformulation of the OT problem and generalizes prior OT methods for weak and strong cost functionals. As an application, we construct a functional to map data distributions with preserving the class-wise structure of data.
+
+---
 
 [DEF: Deep Estimation of Sharp Geometric Features in 3D Shapes](https://arxiv.org/abs/2011.15081)  
 Matveev,A., Rakhimov, R., Artemov, A., Bobrovskikh,G., Egiazarian,V., Bogomolov,E., Panozzo,D., Zorin,D., Burnaev,E.   
@@ -10,13 +31,7 @@ We propose Deep Estimators of Features (DEFs), a learning-based framework for pr
 
 ---
 
-[Neural Optimal Transport with General Cost Functionals](https://arxiv.org/pdf/2205.15403.pdf)  
-Arip Asadulaev*, Alexander Korotin*, Vage Egiazarian, Evgeny Burnaev  
-[Pre-print 2022]  
-<img src="images/NOT.png?raw=true"/>  
-We present a novel neural-networks-based algorithm to compute optimal transport (OT) plans and maps for general cost functionals. The algorithm is based on a saddle point reformulation of the OT problem and generalizes prior OT methods for weak and strong cost functionals. As an application, we construct a functional to map data distributions with preserving the class-wise structure of data.
 
----
 
 [Wasserstein Iterative Networks for Barycenter Estimation](https://arxiv.org/abs/2201.12245)  
 Korotin, A., Egiazarian, V., Li, L., Burnaev E.  
@@ -77,21 +92,6 @@ Voinov, O., Artemov, A., Egiazarian, V., Notchenko, A., Bobrovskikh, G., Zorin, 
 <img src="images/ddsr.jpg?raw=true"/>
 
 We address the problem of depth map super-resolution with the focus on visual quality of the corresponding 3D geometry. We demonstrate that basing the loss function on deviation of 3D surface rendering instead of direct depth deviation yields significantly improved results as measured by a number of perceptual metrics. 
-
----
-
-### PROJECTS
-**Telegram bot for Celebrity Faces**  
-I was a part of a team working on implementing an algorithm for finding similar faces in Celebrity photo database by using Locality-sensitive hashing and Neural Network.  
-
-**Spam Detector**   
-Analysis and classification of Twitter accounts into 3 groups – “person”, “spam”, and “other”. A Telegram bot was created, to classify accounts in the above way, by using a combination of XGBoost and Neural Network classifiers.  
-
-**Research Assistant, DSSLab, project ICS RAS**    
-As part of a team completed the project “Conceptual structuring of the situation of building basic models of political and socio-economic situation of the Republic of Kazakhstan”. The work was done in the interest of the presidential administration of the Republic of Kazakhstan. February 2015 - April 2015  
-
-**Mathematical modeling and investment planning for oil production**  
- In this paper, I developed a model for constructing an optimal investment portfolio for an oil company from a pool of projects. The objective was to maximize the NPV for 20 years. As a solution, a C# application was created using genetic algorithms with modifications to fit the needs of a particular problem.
 
 ---
 ### Awards

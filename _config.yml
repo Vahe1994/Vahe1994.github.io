@@ -1,7 +1,6 @@
 title: Vage Egiazarian # your name (or website title) here
 logo: "/images/logo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  I’m a fourth year PhD student at Skoltech.My research interests are shape reconstruction, geometry processing and generative networks.My research is dedicated to the vector graphics reconstruction from 2d and 3d data.I'm also doing research in the generative neural networks field.  
-  During my PhD I published several papers at top Machine Learning conferences -  SiGGRAPH,ECCV,NeurIPS,ICLR,e.t.c. and in 2020 honoured to receive the Ilya Segalovich Award for Young Researchers. 
-
+  I’m Research Scientist in deep learning. My research interests are model compression, LLM and generative networks. I have several papers at top Machine Learning conferences - NeurIPS, ICLR, SiGGRAPH, ICCV, ECCV e.t.c.
+  In 2020, I was honored to receive the Ilya Segalovich Award for Young Researchers.
 theme: jekyll-theme-minimal
