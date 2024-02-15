@@ -16,7 +16,7 @@ We introduce the Sparse-Quantized Representation (SpQR), a new compressed format
 ---
 
 [Neural Optimal Transport with General Cost Functionals](https://arxiv.org/pdf/2205.15403.pdf)  
-Arip Asadulaev*, Alexander Korotin*, Vage Egiazarian, Evgeny Burnaev  
+Arip Asadulaev*, Alexander Korotin*, Vage Egiazarian,Petr Mokrov, Evgeny Burnaev  
 [ICLR 2024]  
 <img src="images/NOT.png?raw=true"/>  
 We present a novel neural-networks-based algorithm to compute optimal transport (OT) plans and maps for general cost functionals. The algorithm is based on a saddle point reformulation of the OT problem and generalizes prior OT methods for weak and strong cost functionals. As an application, we construct a functional to map data distributions with preserving the class-wise structure of data.

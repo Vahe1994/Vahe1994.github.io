@@ -2,5 +2,4 @@ title: Vage Egiazarian # your name (or website title) here
 logo: "/images/logo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   I’m Research Scientist in deep learning. My research interests are model compression, LLM and generative networks. I have several papers at top Machine Learning conferences - NeurIPS, ICLR, SiGGRAPH, ICCV, ECCV e.t.c.
-  In 2020, I was honored to receive the Ilya Segalovich Award for Young Researchers.
 theme: jekyll-theme-minimal
