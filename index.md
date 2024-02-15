@@ -37,7 +37,7 @@ We propose Deep Estimators of Features (DEFs), a learning-based framework for pr
 
 [Wasserstein Iterative Networks for Barycenter Estimation](https://arxiv.org/abs/2201.12245)  
 Korotin, A., Egiazarian, V., Li, L., Burnaev E.  
-[Pre-print 2022] 
+[NeurIPS 2022] 
 
 <img src="images/w2bar.png?raw=true"/>
 
