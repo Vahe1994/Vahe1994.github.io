@@ -5,7 +5,7 @@
 Vage Egiazarian*, Roberto L Castro*, Denis Kuznedelev*, Andrei Panferov*, Eldar Kurtic, Shubhra Pandit, Alexandre Marques, Mark Kurtz, Saleh Ashkboos, Torsten Hoefler, Dan Alistarh  
 [Pre-print]
 <img src="images/FPQuant.png"/>  
-We present the first comprehensive study of MXFP4 and NVFP4 for post-training quantization, revealing gaps between their promise and real-world performance. Our analysis shows that state-of-the-art methods struggle with FP4, due to two key issues: (1) NVFP4's small group size provably neutralizes traditional outlier mitigation techniques; (2) MXFP4's power-of-two scale quantization severely degrades accuracy due to high induced error. To bridge this gap, we introduce Micro-Rotated-GPTQ (MR-GPTQ), a variant of the classic GPTQ quantization algorithm that tailors the quantization process to FP4's unique properties, by using block-wise Hadamard transforms and format-specific optimizations. We support our proposal with a set of high-performance GPU kernels that enable the MR-GPTQ format with negligible overhead, by rotation fusion into the weights, and fast online computation of the activations. This leads to speedups vs. FP16 of up to 3.6x layer-wise, and 2.2x end-to-end on NVIDIA B200, and of 6x layer-wise and 4x end-to-end on RTX5090. 
+We introduce Micro-Rotated-GPTQ (MR-GPTQ), a variant of the classic GPTQ quantization algorithm that tailors the quantization process to FP4's unique properties, by using block-wise Hadamard transforms and format-specific optimizations. We support our proposal with a set of high-performance GPU kernels that enable the MR-GPTQ format with negligible overhead, by rotation fusion into the weights, and fast online computation of the activations. This leads to speedups vs. FP16 of up to 3.6x layer-wise, and 2.2x end-to-end on NVIDIA B200, and of 6x layer-wise and 4x end-to-end on RTX5090. 
 
 ---
 
@@ -13,7 +13,7 @@ We present the first comprehensive study of MXFP4 and NVFP4 for post-training qu
 Jiale Chen, Vage Egiazarian, Torsten Hoefler, Dan Alistarh 
 [Pre-print]
 <img src="images/wush.png"/>  
- In this work, we derive, for the first time, closed-form optimal linear blockwise transforms for joint weight-activation quantization using standard data-free quantizers for common numerical formats. Specifically, we provide derivations of the optimal adaptive (data-aware) transforms for round-to-nearest (RTN), AbsMax-scaled block quantizers for both integer and floating-point formats. The resulting construction, which we call WUSH, combines a Hadamard backbone with a data-dependent component based on second-order moments, yielding a non-orthogonal transform that is provably optimal under mild assumptions and remains structured for efficient implementation. Preliminary experimental results show that our approach consistently improves upon the Hadamard transform for common formats.
+ In this work, we derive, for the first time, closed-form optimal linear blockwise transforms for joint weight-activation quantization using standard data-free quantizers for common numerical formats. Specifically, we provide derivations of the optimal adaptive (data-aware) transforms for round-to-nearest (RTN), AbsMax-scaled block quantizers for both integer and floating-point formats. The resulting construction, combines a Hadamard backbone with a data-dependent component based on second-order moments, yielding a non-orthogonal transform that is provably optimal under mild assumptions and remains structured for efficient implementation.
 
 ---
 
@@ -21,7 +21,7 @@ Jiale Chen, Vage Egiazarian, Torsten Hoefler, Dan Alistarh
 Gleb Rodionov*, Roman Garipov*, Alina Shutova*, George Yakushev*, Vage Egiazarian, Anton Sinitsin, Denis Kuznedelev, Dan Alistarh   
 [NeurIPS Spotlight 2025]
 <img src="images/Hogwild_inference.png"/>  
- In this work, we propose a different design approach: we run LLM "workers" in parallel , allowing them to synchronize via a concurrently-updated attention cache and prompt these workers to decide how best to collaborate. Our approach allows the LLM instances to come up with their own collaboration strategy for the problem at hand, all the while "seeing" each other's memory in the concurrent KV cache. We implement this approach via Hogwild! Inference: a parallel LLM inference engine where multiple instances of the same LLM run in parallel with the same attention cache, with "instant" access to each other's memory. Hogwild! Inference takes advantage of Rotary Position Embeddings (RoPE) to avoid recomputation while improving parallel hardware utilization. We find that modern reasoning-capable LLMs can perform inference with shared Key-Value cache out of the box, without additional fine-tuning.
+ In this work, we propose a different design approach: we run LLM "workers" in parallel, allowing them to synchronize via a concurrently-updated attention cache and prompt these workers to decide how best to collaborate. Our approach allows the LLM instances to come up with their own collaboration strategy for the problem at hand, all the while "seeing" each other's memory in the concurrent KV cache. We implement this approach via Hogwild! Inference: a parallel LLM inference engine where multiple instances of the same LLM run in parallel with the same attention cache, with "instant" access to each other's memory.
 
 ---
 
@@ -29,7 +29,7 @@ Gleb Rodionov*, Roman Garipov*, Alina Shutova*, George Yakushev*, Vage Egiazaria
 Andrei Panferov, Alexandra Volkova, Ionut-Vlad Modoranu, Vage Egiazarian, Mher Safaryan, Dan Alistarh  
 [NeurIPS 2025]
 <img src="images/unified_scaling_laws.png"/>  
-This paper investigates the interplay between scaling laws and compression formats, exploring whether a unified scaling framework can accurately predict model performance when training occurs over various compressed representations, such as sparse, scalar-quantized, sparse-quantized or even vector-quantized formats. Our key contributions include validating a general scaling law formulation and showing that it is applicable both individually but also composably across compression types. Based on this, our main finding is demonstrating both theoretically and empirically that there exists a simple "capacity" metric -- based on the representation's ability to fit random Gaussian data -- which can robustly predict parameter efficiency across multiple compressed representations.
+This paper investigates the interplay between scaling laws and compression formats, exploring whether a unified scaling framework can accurately predict model performance when training occurs over various compressed representations, such as sparse, scalar-quantized, sparse-quantized or even vector-quantized formats. Our key contributions include validating a general scaling law formulation and showing that it is applicable both individually but also composably across compression types.
 
 ---
 
@@ -45,7 +45,7 @@ We introduce AutoJudge, a method that accelerates large language model (LLM) inf
 Alina Shutova*, Vladimir Malinovskii*, Vage Egiazarian*, Denis Kuznedelev, Denis Mazur, Nikita Surkov, Ivan Ermakov, Dan Alistarh   
 [ICML 2025]
 <img src="images/cache_me_if_you_must.png"/>  
-In this work, we aim to improve Key & Value compression by exploiting two observations: 1) the inherent dependencies between keys and values across different layers, and 2) high-compression mechanisms for internal network states. We propose AQUA-KV, an adaptive quantization for Key-Value caches that relies on compact adapters to exploit existing dependencies between Keys and Values, and aims to "optimally" compress the information that cannot be predicted. AQUA-KV significantly improves compression rates, while maintaining high accuracy on state-of-the-art LLM families. On Llama 3.2 LLMs, we achieve near-lossless inference at 2-2.5 bits per value with under relative error in perplexity and LongBench scores. AQUA-KV is one-shot, simple, and efficient: it can be calibrated on a single GPU within 1-6 hours, even for 70B models.
+We propose AQUA-KV, an adaptive quantization for Key-Value caches that relies on compact adapters to exploit existing dependencies between Keys and Values, and aims to "optimally" compress the information that cannot be predicted. AQUA-KV significantly improves compression rates, while maintaining high accuracy on state-of-the-art LLM families. On Llama 3.2 LLMs, we achieve near-lossless inference at 2-2.5 bits per value with under relative error in perplexity and LongBench scores.
 
 ---
 
@@ -53,7 +53,7 @@ In this work, we aim to improve Key & Value compression by exploiting two observ
 Arip Asadulaev, Rostislav Korst, Aleksandr Korotin, Vage Egiazarian, Andrey Filchenkov, Evgeny Burnaev   
 [NeurIPS 2024]
 <img src="images/RL_transport.png"/>  
-We propose a novel algorithm for offline reinforcement learning using optimal transport. Typically, in offline reinforcement learning, the data is provided by various experts and some of them can be sub-optimal. To extract an efficient policy, it is necessary to\emph {stitch} the best behaviors from the dataset. To address this problem, we rethink offline reinforcement learning as an optimal transportation problem. And based on this, we present an algorithm that aims to find a policy that maps states to a\emph {partial} distribution of the best expert actions for each given state. We evaluate the performance of our algorithm on continuous control problems from the D4RL suite and demonstrate improvements over existing methods.
+We propose a novel algorithm for offline reinforcement learning using optimal transport. Typically, in offline reinforcement learning, the data is provided by various experts and some of them can be sub-optimal. To extract an efficient policy, it is necessary to\emph {stitch} the best behaviors from the dataset. To address this problem, we rethink offline reinforcement learning as an optimal transportation problem. And based on this, we present an algorithm that aims to find a policy that maps states to a\emph {partial} distribution of the best expert actions for each given state.
 
 ---
 
